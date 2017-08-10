@@ -8,6 +8,19 @@ A fast tunnel proxy that helps you bypass firewalls.
 Server
 ------
 
+### Quick Start For SSBetter
+Ubuntu 16.04
+```
+git clone https://github.com/yzbx/shadowsocksr.git
+# make sure the branch is manyuser
+cp config.json user-config.json
+# edit the passwd and ... according to ssbetter
+cd shadowsocks
+python local.py
+# run in background
+# nohup python local.py & 
+```
+
 ### Install
 
 Debian / Ubuntu:
